@@ -22,30 +22,31 @@
 <body>
 </div>
   <div class="container">
-    <h1>會員註冊</h1>
+    <h1>Order Form</h1>
     <hr/>
     <div class="row">
       <div class="col-md-6">
         <form method="post" name="contactForm">
           <div class="form-group">
-            <label for="name">請輸入您的Name</label>
+            <label for="name">Name</label>
             <input type="text" class="form-control" id="name" required placeholder="Enter name">
           </div>
-		 <div class="form-group">
-            <label for="zip">請輸入您的聯繫電話</label>
-            <input type="text" class="form-control" id="tel" placeholder="Enter tel">
-          </div>
-		<div class="form-group">
-            <label for="ZIP Code">郵遞區號</label>
-            <input type="text" class="form-control" id="ZIP Code" placeholder="Enter ZIP Code">
-          </div>
           <div class="form-group">
-            <label for="email">請輸入您的聯繫地址</label>
-            <input type="text" class="form-control" id="address" placeholder="Enter address">
-          </div>
-          <div class="form-group">
-            <label for="email">請輸入您的Email</label>
+            <label for="email">Email</label>
             <input type="email" class="form-control" id="email" required placeholder="Enter Email">
+          </div>
+          <h3>Location</h3>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter City">
+          </div>
+          <div class="form-group">
+            <label for="email">State</label>
+            <input type="text" class="form-control" id="state" placeholder="Enter State">
+          </div>
+          <div class="form-group">
+            <label for="zip">Zip</label>
+            <input type="text" class="form-control" id="zip" placeholder="Enter Zip Code">
           </div>
 		    <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdjfMsUAAAAAMM7XncV5m9wvjCw3P3ChifvL7Nu"></div>
    
